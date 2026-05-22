@@ -106,4 +106,6 @@ export EDITOR='micro'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias cz="chezmoi"
+
 . "$HOME/.local/bin/env"
