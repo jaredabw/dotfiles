@@ -107,4 +107,6 @@ export EDITOR='micro'
 
 alias cz="chezmoi"
 
+fastfetch
+
 . "$HOME/.local/bin/env"
