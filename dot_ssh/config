@@ -3,3 +3,4 @@ Host kumiko
     Port 22
     User root
     IdentityFile  ~/.ssh/kumiko_root
+    IPQoS none
