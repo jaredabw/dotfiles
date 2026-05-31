@@ -1,0 +1,5 @@
+Host kumiko
+    HostName 172.245.119.160
+    Port 22
+    User root
+    IdentityFile  ~/.ssh/kumiko_root
