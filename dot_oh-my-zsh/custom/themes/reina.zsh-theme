@@ -6,7 +6,4 @@ git_branch() {
 
 setopt PROMPT_SUBST
 
-PROMPT='%{$fg_bold[cyan]%}%T \
-%{$fg_bold[white]%}%n%{$fg[magenta]%}@%{$fg_bold[white]%}%m \
-%{$fg_bold[cyan]%}%~%{$fg_bold[white]%}$(git_branch) \
-%{$fg_bold[yellow]%}> %{$reset_color%}'
+PROMPT='%{$fg_bold[cyan]%}%T %{$fg_bold[white]%}%n%{$fg[magenta]%}@%{$fg_bold[white]%}%m %{$fg_bold[cyan]%}%~%{$fg_bold[white]%}$(git_branch) %{$fg_bold[yellow]%}> %{$reset_color%}'
