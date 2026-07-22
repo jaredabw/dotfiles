@@ -110,5 +110,7 @@ export EDITOR='nano'
 alias cz="chezmoi"
 
 alias ompcc="/opt/homebrew/opt/llvm/bin/clang"
+alias nano='/opt/homebrew/bin/nano'
+
 
 . "$HOME/.local/bin/env"
