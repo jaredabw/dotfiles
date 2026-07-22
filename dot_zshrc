@@ -27,7 +27,7 @@ ZSH_THEME="reina"
 
 # Uncomment one of the following lines to change the auto-update behavior
 # zstyle ':omz:update' mode disabled  # disable automatic updates
-# zstyle ':omz:update' mode auto      # update automatically without asking
+zstyle ':omz:update' mode auto      # update automatically without asking
 # zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
 # Uncomment the following line to change how often to auto-update (in days).
@@ -90,7 +90,7 @@ source $ZSH/oh-my-zsh.sh
 #   export EDITOR='nvim'
 # fi
 
-export EDITOR='micro'
+export EDITOR='nano'
 
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
@@ -108,5 +108,8 @@ export EDITOR='micro'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias cz="chezmoi"
+
+
+export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
 
 . "$HOME/.local/bin/env"
