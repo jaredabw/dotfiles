@@ -109,7 +109,6 @@ export EDITOR='nano'
 
 alias cz="chezmoi"
 
-
-export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
+alias ompcc="/opt/homebrew/opt/llvm/bin/clang"
 
 . "$HOME/.local/bin/env"
