@@ -112,6 +112,6 @@ alias cz="chezmoi"
 alias ompcc="/opt/homebrew/opt/llvm/bin/clang"
 alias nano='/opt/homebrew/bin/nano'
 
-alias py="python3"
+alias python="python3"
 
 . "$HOME/.local/bin/env"
